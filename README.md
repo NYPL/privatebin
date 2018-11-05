@@ -5,7 +5,9 @@ Source: jgeusebroek/zerobin [Dockerhub](https://hub.docker.com/r/jgeusebroek/zer
 
 ## Running Locally
 
-`docker-compose up`
+1.  Clone this repository.
+2.  `docker-compose up`
+3.  Go to http://localhost
 
 ## Running on ECS
 
