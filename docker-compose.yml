@@ -1,9 +1,9 @@
 version: '3.4'
 services:
-  zerobin:
-    image: jgeusebroek/zerobin
+  privatebin:
+    image: wonderfall/privatebin
     volumes:
-      - './config:/zerobin/cfg'
-      - './data:/zerobin/data'
+      - './config:/privatebin/cfg'
+      - './data:/privatebin/data'
     ports:
-      - '80:80'
+      - '80:8888'

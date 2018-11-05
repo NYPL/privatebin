@@ -1,7 +1,7 @@
-# ZeroBin
+# PrivateBin
 
 It's bad to send credentials via Slack & Email.  
-Source: jgeusebroek/zerobin [Dockerhub](https://hub.docker.com/r/jgeusebroek/zerobin/)/[Github](https://github.com/jgeusebroek/docker-zerobin)
+Source: wonderfall/privatebin [Dockerhub](https://hub.docker.com/r/wonderfall/privatebin/)/[Github](https://github.com/PrivateBin/PrivateBin)
 
 ## Running Locally
 
