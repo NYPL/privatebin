@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  zerobin:
+    image: jgeusebroek/zerobin
+    volumes:
+      - './config:/zerobin/cfg'
+      - './data:/zerobin/data'
+    ports:
+      - '80:80'
