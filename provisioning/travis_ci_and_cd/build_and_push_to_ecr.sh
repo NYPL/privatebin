@@ -14,7 +14,7 @@ if [ "$TRAVIS_BRANCH" == "master" ]; then
   eval $(aws ecr get-login --no-include-email --region us-east-1)
 
   # Build and push
-  LOCAL_TAG_NAME=zerobin:latest
+  LOCAL_TAG_NAME=privatebin:latest
   REMOTE_FULL_URL=$DOCKER_REPO_URL:latest
 
   docker build --tag $LOCAL_TAG_NAME .
