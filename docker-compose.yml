@@ -1,7 +1,9 @@
 version: '3.4'
 services:
   privatebin:
-    image: wonderfall/privatebin
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - './config:/privatebin/cfg'
       - './data:/privatebin/data'
