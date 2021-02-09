@@ -5,7 +5,7 @@ if [ "$TRAVIS_BRANCH" == "master" ]; then
 
   export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID_PRODUCTION
   export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY_PRODUCTION
-  CLUSTER_NAME=reoccurring-job-runner
+  CLUSTER_NAME=privatebin-production
   WEB_APP_SERVICE_NAME="privatebin-production"
 
   echo "Deploying $TRAVIS_BRANCH"
